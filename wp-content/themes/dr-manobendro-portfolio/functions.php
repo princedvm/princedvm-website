@@ -158,9 +158,157 @@ function dmp_fallback_menu() {
 }
 
 /**
- * After the theme is activated, point the front page at the imported
- * "Home" page and the blog at "Blog" (only if the site still shows
- * the default latest-posts front page).
+ * Read a bundled demo content file and resolve URL placeholders.
+ *
+ * @param string $slug Demo file slug (without extension).
+ * @return string Block markup, or empty string if the file is missing.
+ */
+function dmp_demo_content( $slug ) {
+	$file = get_template_directory() . '/demo/' . $slug . '.html';
+	if ( ! file_exists( $file ) ) {
+		return '';
+	}
+	$html = (string) file_get_contents( $file );
+	return str_replace(
+		array( '{{THEME_URI}}', '{{HOME_URI}}' ),
+		array( get_template_directory_uri(), untrailingslashit( home_url() ) ),
+		$html
+	);
+}
+
+/**
+ * One-time demo content installer, run on theme activation.
+ *
+ * Creates the demo pages, blog posts, primary menu and reading settings
+ * so the full website appears right after the theme is activated. Skips
+ * everything if demo content already exists (e.g. imported via WXR) and
+ * never runs twice.
+ */
+function dmp_install_demo_content() {
+	if ( get_option( 'dmp_demo_imported' ) ) {
+		dmp_setup_front_page();
+		return;
+	}
+
+	if ( get_page_by_path( 'home' ) instanceof WP_Post ) {
+		// Content already present (manual WXR import) — just wire it up.
+		update_option( 'dmp_demo_imported', 1 );
+		dmp_setup_front_page();
+		return;
+	}
+
+	$pages = array(
+		'home'     => array( 'Home', 1, 'templates/template-full-width.php' ),
+		'about'    => array( 'About', 2, '' ),
+		'services' => array( 'Services', 3, '' ),
+		'gallery'  => array( 'Gallery', 4, '' ),
+		'blog'     => array( 'Blog', 5, '' ),
+		'contact'  => array( 'Contact', 6, '' ),
+	);
+
+	$page_ids = array();
+	foreach ( $pages as $slug => $page ) {
+		$page_ids[ $slug ] = wp_insert_post(
+			array(
+				'post_title'     => $page[0],
+				'post_name'      => $slug,
+				'post_content'   => dmp_demo_content( $slug ),
+				'post_status'    => 'publish',
+				'post_type'      => 'page',
+				'menu_order'     => $page[1],
+				'comment_status' => 'closed',
+				'ping_status'    => 'closed',
+				'page_template'  => $page[2],
+			)
+		);
+	}
+
+	$posts = array(
+		'fmd-prevention-tips'              => array(
+			'Foot-and-Mouth Disease: Prevention Tips for Cattle Farmers in Rajbari',
+			'Animal Health',
+			array( 'Cattle', 'Vaccination' ),
+			'-3 weeks',
+			'FMD rarely kills adult cattle but devastates milk yield and incomes. Here are five practical prevention steps for the farmers of Rajbari.',
+		),
+		'artificial-insemination-benefits' => array(
+			'Why Artificial Insemination Pays Off for Smallholder Dairy Farmers',
+			'Farmer Advisory',
+			array( 'Dairy', 'Breeding' ),
+			'-6 weeks',
+			'Artificial insemination is safer and more profitable than keeping a bull. Here is what every smallholder dairy farmer should know about AI.',
+		),
+		'poultry-monsoon-preparation'      => array(
+			'Preparing Your Poultry Flock for the Monsoon Season',
+			'Animal Health',
+			array( 'Poultry' ),
+			'-10 weeks',
+			'Wet months mean coccidiosis, fowl cholera and mouldy feed. Use this pre-monsoon checklist to keep your flock healthy through the rains.',
+		),
+	);
+
+	foreach ( $posts as $slug => $post ) {
+		$category = term_exists( $post[1], 'category' );
+		if ( ! $category ) {
+			$category = wp_insert_term( $post[1], 'category' );
+		}
+		$category_id = is_array( $category ) ? (int) $category['term_id'] : (int) $category;
+
+		wp_insert_post(
+			array(
+				'post_title'    => $post[0],
+				'post_name'     => $slug,
+				'post_content'  => dmp_demo_content( $slug ),
+				'post_excerpt'  => $post[4],
+				'post_status'   => 'publish',
+				'post_type'     => 'post',
+				'post_date'     => gmdate( 'Y-m-d 09:00:00', strtotime( $post[3] ) ),
+				'post_category' => array( $category_id ),
+				'tags_input'    => $post[2],
+			)
+		);
+	}
+
+	// Build and assign the primary menu.
+	if ( ! wp_get_nav_menu_object( 'Primary' ) ) {
+		$menu_id = wp_create_nav_menu( 'Primary' );
+		if ( ! is_wp_error( $menu_id ) ) {
+			foreach ( $pages as $slug => $page ) {
+				if ( empty( $page_ids[ $slug ] ) || is_wp_error( $page_ids[ $slug ] ) ) {
+					continue;
+				}
+				wp_update_nav_menu_item(
+					$menu_id,
+					0,
+					array(
+						'menu-item-title'     => $page[0],
+						'menu-item-object'    => 'page',
+						'menu-item-object-id' => $page_ids[ $slug ],
+						'menu-item-type'      => 'post_type',
+						'menu-item-status'    => 'publish',
+					)
+				);
+			}
+			$locations            = (array) get_theme_mod( 'nav_menu_locations', array() );
+			$locations['primary'] = $menu_id;
+			set_theme_mod( 'nav_menu_locations', $locations );
+		}
+	}
+
+	// Pretty permalinks, so demo links like /contact/ resolve.
+	if ( ! get_option( 'permalink_structure' ) ) {
+		update_option( 'permalink_structure', '/%postname%/' );
+		flush_rewrite_rules();
+	}
+
+	update_option( 'dmp_demo_imported', 1 );
+	dmp_setup_front_page();
+}
+add_action( 'after_switch_theme', 'dmp_install_demo_content' );
+
+/**
+ * Point the front page at "Home" and the blog at "Blog" (only if the
+ * site still shows the default latest-posts front page).
  */
 function dmp_setup_front_page() {
 	if ( 'page' === get_option( 'show_on_front' ) ) {
@@ -178,7 +326,6 @@ function dmp_setup_front_page() {
 		}
 	}
 }
-add_action( 'after_switch_theme', 'dmp_setup_front_page' );
 
 /**
  * Helper: theme image URL (used by bundled patterns).

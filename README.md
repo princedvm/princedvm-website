@@ -8,8 +8,9 @@ WordPress installation:
 
 | Path | What it is |
 |------|------------|
-| `wp-content/themes/dr-manobendro-portfolio/` | Custom WordPress theme (PHP, CSS, JS, sample SVG images, block patterns) |
-| `demo-content/demo-content.xml` | Importable demo content (pages + blog posts, all sample data) |
+| `dist/dr-manobendro-portfolio.zip` | **Ready-to-upload theme ZIP** — install via *Appearance → Themes → Add New → Upload Theme* |
+| `wp-content/themes/dr-manobendro-portfolio/` | Custom WordPress theme (PHP, CSS, JS, sample SVG images, block patterns, bundled demo content) |
+| `demo-content/demo-content.xml` | Optional WXR demo content (same pages/posts, for manual import via the WordPress Importer) |
 
 ## Why it works with any page builder
 
@@ -34,24 +35,27 @@ Three ready-made **block patterns** (hero, services grid, call-to-action) are
 registered under the "Dr. Manobendro Portfolio" pattern category so sections
 can be re-inserted anywhere.
 
-## Installation
+## Installation (two steps)
 
 1. **Install WordPress** (6.0+) on your host as usual.
-2. **Copy the theme**: upload `wp-content/themes/dr-manobendro-portfolio/` to
-   your site's `wp-content/themes/` directory (or zip the folder and upload it
-   via *Appearance → Themes → Add New → Upload Theme*).
-3. **Activate** the theme under *Appearance → Themes*. On activation the theme
-   automatically sets the imported "Home" page as the static front page and
-   "Blog" as the posts page (if those pages exist).
-4. **Import the demo content**: go to *Tools → Import → WordPress* (install
-   the WordPress Importer when prompted), upload
-   `demo-content/demo-content.xml`, assign posts to your admin user and run
-   the import. If you imported before activating the theme, re-activate the
-   theme once (or set the front page manually under *Settings → Reading*).
-5. **Create the menu**: under *Appearance → Menus*, create a menu with Home,
-   About, Services, Gallery, Blog and Contact, and assign it to the
-   **Primary Menu** location. (Until then, the theme shows an automatic page
-   list as a fallback.)
+2. **Upload the theme ZIP**: in the WordPress admin go to *Appearance →
+   Themes → Add New → Upload Theme*, choose `dist/dr-manobendro-portfolio.zip`
+   and click *Install Now*, then **Activate**.
+
+That's it. On first activation the theme automatically installs the demo
+website: it creates the Home, About, Services, Gallery, Blog and Contact
+pages, three sample blog posts with categories and tags, builds the primary
+navigation menu, enables pretty permalinks and sets Home as the static front
+page. The installer runs only once and never touches existing content — if a
+"home" page already exists it just wires up the front-page settings.
+
+### Alternative: manual demo import
+
+If you prefer to import content yourself (or want it on a site where the
+demo installer already ran), use *Tools → Import → WordPress* with
+`demo-content/demo-content.xml`. Note the XML version references images at a
+root-relative path, so it assumes WordPress is installed at the domain root;
+the bundled installer has no such limitation.
 
 ## Customising
 

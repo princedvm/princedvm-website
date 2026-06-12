@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+	"settings": {
+		"layout": {
+			"contentSize": "1140px",
+			"wideSize": "1320px"
+		},
+		"color": {
+			"palette": [
+				{ "slug": "primary", "color": "#15614a", "name": "Forest Green" },
+				{ "slug": "primary-dark", "color": "#0d3f30", "name": "Deep Forest" },
+				{ "slug": "accent", "color": "#f2a93b", "name": "Harvest Amber" },
+				{ "slug": "ink", "color": "#1c2b27", "name": "Ink" },
+				{ "slug": "muted", "color": "#5b6f68", "name": "Muted" },
+				{ "slug": "mist", "color": "#eef5f1", "name": "Mist" },
+				{ "slug": "white", "color": "#ffffff", "name": "White" }
+			]
+		},
+		"typography": {
+			"fontSizes": [
+				{ "slug": "small", "size": "0.875rem", "name": "Small" },
+				{ "slug": "medium", "size": "1.125rem", "name": "Medium" },
+				{ "slug": "large", "size": "1.5rem", "name": "Large" },
+				{ "slug": "x-large", "size": "2.25rem", "name": "Extra Large" },
+				{ "slug": "xx-large", "size": "3rem", "name": "Huge" }
+			]
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"units": [ "px", "em", "rem", "%", "vw", "vh" ]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#ffffff",
+			"text": "#1c2b27"
+		},
+		"elements": {
+			"link": {
+				"color": { "text": "#15614a" }
+			}
+		}
+	}
+}

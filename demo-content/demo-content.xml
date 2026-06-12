@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	Demo content for the "Dr. Manobendro Portfolio" WordPress theme.
+	Import via Tools → Import → WordPress (the WordPress Importer plugin).
+
+	All pages are composed of standard Gutenberg core blocks, so they remain
+	fully editable with the Block Editor, Elementor, Divi, Beaver Builder, etc.
+
+	NOTE: All personal details, statistics and dates below are SAMPLE DATA —
+	replace them with real information before going live.
+-->
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+	<title>Dr. Manobendro Majumder, DVM</title>
+	<link>https://example.com</link>
+	<description>Veterinarian &#38; Upazila Livestock Officer — Baliakandi, Rajbari</description>
+	<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://example.com</wp:base_site_url>
+	<wp:base_blog_url>https://example.com</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login><![CDATA[drmajumder]]></wp:author_login>
+		<wp:author_email><![CDATA[princedvm@gmail.com]]></wp:author_email>
+		<wp:author_display_name><![CDATA[Dr. Manobendro Majumder]]></wp:author_display_name>
+		<wp:author_first_name><![CDATA[Manobendro]]></wp:author_first_name>
+		<wp:author_last_name><![CDATA[Majumder]]></wp:author_last_name>
+	</wp:author>
+
+	<wp:category>
+		<wp:term_id>10</wp:term_id>
+		<wp:category_nicename><![CDATA[animal-health]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Animal Health]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>11</wp:term_id>
+		<wp:category_nicename><![CDATA[farmer-advisory]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Farmer Advisory]]></wp:cat_name>
+	</wp:category>
+
+	<!-- ============================================================ -->
+	<!-- PAGE: Home                                                   -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Home</title>
+		<link>https://example.com/home/</link>
+		<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?page_id=100</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:cover {"url":"/wp-content/themes/dr-manobendro-portfolio/assets/images/hero-bg.svg","dimRatio":30,"overlayColor":"primary-dark","minHeight":660,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:660px"><span aria-hidden="true" class="wp-block-cover__background has-primary-dark-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="/wp-content/themes/dr-manobendro-portfolio/assets/images/hero-bg.svg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:paragraph {"align":"center","className":"dmp-section-label"} -->
+<p class="has-text-align-center dmp-section-label">Veterinarian · Public Servant · Livestock Development Professional</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textAlign":"center","level":1,"textColor":"white","fontSize":"xx-large"} -->
+<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color has-xx-large-font-size">Dr. Manobendro Majumder, DVM</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","textColor":"white","fontSize":"medium"} -->
+<p class="has-text-align-center has-white-color has-text-color has-medium-font-size">Upazila Livestock Officer — Baliakandi, Rajbari, Bangladesh.<br>Caring for animals, empowering farmers, and strengthening rural livelihoods.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button {"className":"dmp-btn-accent"} -->
+<div class="wp-block-button dmp-btn-accent"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a Consultation</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-outline","textColor":"white"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="/services/">Explore Services</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"align":"full","backgroundColor":"primary","textColor":"white","style":{"spacing":{"padding":{"top":"2.5rem","bottom":"2.5rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-color has-primary-background-color has-text-color has-background" style="padding-top:2.5rem;padding-bottom:2.5rem">
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"textAlign":"center","textColor":"accent","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-accent-color has-text-color has-x-large-font-size">12+</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Years in Veterinary Service</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"textAlign":"center","textColor":"accent","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-accent-color has-text-color has-x-large-font-size">50,000+</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Animals Treated &amp; Vaccinated</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"textAlign":"center","textColor":"accent","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-accent-color has-text-color has-x-large-font-size">200+</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Farmer Training Sessions</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column">
+<!-- wp:heading {"textAlign":"center","textColor":"accent","fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-accent-color has-text-color has-x-large-font-size">30+</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Vaccination Campaigns Led</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:4rem;padding-bottom:4rem">
+<!-- wp:media-text {"mediaType":"image","mediaWidth":40} -->
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:40% auto"><figure class="wp-block-media-text__media"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/dr-portrait.svg" alt="Portrait illustration of Dr. Manobendro Majumder"/></figure><div class="wp-block-media-text__content">
+<!-- wp:paragraph {"className":"dmp-section-label"} -->
+<p class="dmp-section-label">About Me</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Serving the farmers and animals of Baliakandi</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>I am a Doctor of Veterinary Medicine currently serving as the Upazila Livestock Officer of Baliakandi, Rajbari, under the Department of Livestock Services, Government of the People's Republic of Bangladesh. My work combines clinical veterinary practice with public-sector livestock development — from treating sick cattle at the upazila veterinary hospital to leading vaccination campaigns, breed improvement programs and farmer training across the upazila.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>I believe healthy animals build healthy livelihoods. Every day, my team and I work to bring modern, science-based animal healthcare to the doorsteps of smallholder farmers.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/about/">Read My Full Story</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div></div>
+<!-- /wp:media-text -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","backgroundColor":"mist","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-mist-background-color has-background" style="padding-top:4rem;padding-bottom:4rem">
+<!-- wp:paragraph {"align":"center","className":"dmp-section-label"} -->
+<p class="has-text-align-center dmp-section-label">What I Do</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Veterinary &amp; Extension Services</h2>
+<!-- /wp:heading -->
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-cattle.svg" alt="Cattle care icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Livestock Treatment</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Clinical diagnosis and treatment of cattle, buffalo, goats and sheep at the upazila veterinary hospital and through on-farm visits.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-poultry.svg" alt="Poultry icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Poultry Health</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Disease prevention, treatment and biosecurity guidance for commercial and backyard poultry farms across Baliakandi.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-vaccine.svg" alt="Vaccination icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Vaccination Programs</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Planning and delivery of government vaccination campaigns against FMD, anthrax, PPR, Newcastle disease and more.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-ai.svg" alt="Artificial insemination icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Artificial Insemination</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Breed improvement through artificial insemination services and reproductive health management for dairy cattle.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-training.svg" alt="Training icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Farmer Training</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Hands-on training for smallholder farmers and youth entrepreneurs on dairy management, fattening, fodder and biosecurity.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-surveillance.svg" alt="Disease surveillance icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Disease Surveillance</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Monitoring, reporting and rapid response for livestock and zoonotic disease outbreaks in coordination with district authorities.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/services/">View All Services</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:4rem;padding-bottom:4rem">
+<!-- wp:paragraph {"align":"center","className":"dmp-section-label"} -->
+<p class="has-text-align-center dmp-section-label">In the Field</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Recent Activities</h2>
+<!-- /wp:heading -->
+<!-- wp:gallery {"columns":3,"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-3 is-cropped">
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-1.svg" alt="Cattle health camp at Baliakandi"/></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-2.svg" alt="Backyard poultry vaccination drive"/></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-4.svg" alt="Farmer training on dairy management"/></figure>
+<!-- /wp:image -->
+</figure>
+<!-- /wp:gallery -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/gallery/">Browse the Gallery</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","backgroundColor":"primary-dark","textColor":"white","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-color has-primary-dark-background-color has-text-color has-background" style="padding-top:4rem;padding-bottom:4rem">
+<!-- wp:heading {"textAlign":"center","textColor":"white"} -->
+<h2 class="wp-block-heading has-text-align-center has-white-color has-text-color">Need veterinary support for your farm?</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Visit the Upazila Livestock Office &amp; Veterinary Hospital, Baliakandi (Sunday–Thursday, 9:00 AM – 5:00 PM) or get in touch online.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons">
+<!-- wp:button {"className":"dmp-btn-accent"} -->
+<div class="wp-block-button dmp-btn-accent"><a class="wp-block-button__link wp-element-button" href="/contact/">Contact Dr. Majumder</a></div>
+<!-- /wp:button -->
+</div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>100</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-12 10:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-12 04:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/template-full-width.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- PAGE: About                                                  -->
+	<!-- ============================================================ -->
+	<item>
+		<title>About</title>
+		<link>https://example.com/about/</link>
+		<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?page_id=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:media-text {"mediaType":"image","mediaWidth":35} -->
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:35% auto"><figure class="wp-block-media-text__media"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/dr-portrait.svg" alt="Portrait illustration of Dr. Manobendro Majumder"/></figure><div class="wp-block-media-text__content">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Dr. Manobendro Majumder, DVM</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong>Upazila Livestock Officer, Baliakandi, Rajbari</strong><br>Department of Livestock Services, Government of Bangladesh</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>I grew up in rural Bangladesh, where I saw first-hand how much a family's wellbeing depends on the health of its cattle, goats and poultry. That experience inspired me to become a veterinarian — and later, to dedicate my career to public veterinary service.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>As Upazila Livestock Officer, I lead the government's livestock services in Baliakandi upazila: running the upazila veterinary hospital, supervising field staff, coordinating vaccination and breed-improvement programs, and advising hundreds of farm families every month.</p>
+<!-- /wp:paragraph -->
+</div></div>
+<!-- /wp:media-text -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Education &amp; Qualifications</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><thead><tr><th>Degree / Certificate</th><th>Institution</th><th>Year</th></tr></thead><tbody><tr><td>Master of Science (MS) in Veterinary Medicine</td><td>Bangladesh Agricultural University, Mymensingh</td><td>2014 (sample)</td></tr><tr><td>Doctor of Veterinary Medicine (DVM)</td><td>Bangladesh Agricultural University, Mymensingh</td><td>2012 (sample)</td></tr><tr><td>Foundation Training Course (BCS Livestock Cadre)</td><td>Bangladesh Civil Service Administration Academy</td><td>2015 (sample)</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Professional Experience</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>Upazila Livestock Officer, Baliakandi, Rajbari</strong> — Department of Livestock Services (2021 – present, sample). Leading veterinary and livestock extension services for the entire upazila.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Veterinary Surgeon, Upazila Livestock Office</strong> — Department of Livestock Services (2016 – 2021, sample). Clinical treatment, surgery and artificial insemination services.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Veterinary Field Practitioner</strong> — Private and NGO-supported practice (2012 – 2016, sample). On-farm treatment and farmer advisory in rural communities.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Key Achievements</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Coordinated upazila-wide FMD and PPR vaccination campaigns reaching tens of thousands of animals each year.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Expanded artificial insemination coverage, improving dairy productivity for smallholder farmers.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Trained hundreds of farmers and youth entrepreneurs in modern dairy, beef fattening and poultry management.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Strengthened disease surveillance and rapid-response reporting during avian influenza and lumpy skin disease alerts.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Memberships</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>Registered Veterinary Practitioner, Bangladesh Veterinary Council (BVC)</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Member, The Bangladesh Veterinary Association (BVA)</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>"Healthy animals build healthy livelihoods. My mission is to bring science-based animal healthcare to the doorstep of every farm family in Baliakandi."</p>
+<!-- /wp:paragraph --><cite>— Dr. Manobendro Majumder</cite></blockquote>
+<!-- /wp:quote -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-12 10:01:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-12 04:01:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- PAGE: Services                                               -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Services</title>
+		<link>https://example.com/services/</link>
+		<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?page_id=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size">The Upazila Livestock Office, Baliakandi provides the following veterinary and livestock development services. Most government services are free of charge or offered at a nominal government-fixed fee.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-cattle.svg" alt="Cattle care icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Clinical Treatment of Livestock</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Diagnosis and treatment of diseases of cattle, buffalo, goats and sheep — including digestive, respiratory, reproductive and parasitic conditions — at the veterinary hospital and through farm visits.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-poultry.svg" alt="Poultry icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Poultry Health &amp; Biosecurity</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Vaccination scheduling, disease prevention and biosecurity audits for commercial layer, broiler and backyard poultry, plus duck and pigeon health services.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-vaccine.svg" alt="Vaccination icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Vaccination Campaigns</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Mass vaccination programs against foot-and-mouth disease (FMD), anthrax, black quarter, PPR, rabies, Newcastle disease, fowl cholera and duck plague.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-ai.svg" alt="Artificial insemination icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Artificial Insemination &amp; Breed Improvement</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>AI services using quality-certified semen, pregnancy diagnosis, infertility management and guidance on improved cattle and goat breeds.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-training.svg" alt="Training icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Farmer Training &amp; Advisory</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Training sessions and one-to-one advisory on dairy management, beef fattening, goat rearing, fodder cultivation, feed formulation and farm record keeping.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"className":"dmp-card","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column dmp-card" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:image {"width":"72px","sizeSlug":"full"} -->
+<figure class="wp-block-image size-full is-resized"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/icon-surveillance.svg" alt="Disease surveillance icon" style="width:72px"/></figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Disease Surveillance &amp; Reporting</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Continuous monitoring of livestock and zoonotic diseases, outbreak investigation, sample collection for laboratory diagnosis and coordination with district and national authorities.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"backgroundColor":"mist","style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-mist-background-color has-background" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Emergency cases</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>For after-hours emergencies (difficult calving, bloat, suspected anthrax or rabies exposure), contact the Upazila Livestock Office hotline immediately. Replace this text with the official hotline number.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-12 10:02:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-12 04:02:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- PAGE: Gallery                                                -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Gallery</title>
+		<link>https://example.com/gallery/</link>
+		<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?page_id=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph {"fontSize":"medium"} -->
+<p class="has-medium-font-size">Snapshots from the field — health camps, vaccination drives, training sessions and everyday veterinary work across Baliakandi upazila. (Sample illustrations; replace with real photographs.)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:gallery {"columns":3,"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-3 is-cropped">
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-1.svg" alt="Cattle health camp at Baliakandi"/><figcaption class="wp-element-caption">Cattle health camp at Baliakandi</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-2.svg" alt="Backyard poultry vaccination drive"/><figcaption class="wp-element-caption">Backyard poultry vaccination drive</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-3.svg" alt="FMD vaccination campaign"/><figcaption class="wp-element-caption">FMD vaccination campaign</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-4.svg" alt="Farmer training on dairy management"/><figcaption class="wp-element-caption">Farmer training on dairy management</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-5.svg" alt="Disease surveillance and laboratory work"/><figcaption class="wp-element-caption">Disease surveillance &amp; lab work</figcaption></figure>
+<!-- /wp:image -->
+<!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large"><img src="/wp-content/themes/dr-manobendro-portfolio/assets/images/gallery-6.svg" alt="Goat rearing support for smallholders"/><figcaption class="wp-element-caption">Goat rearing support for smallholders</figcaption></figure>
+<!-- /wp:image -->
+</figure>
+<!-- /wp:gallery -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-12 10:03:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-12 04:03:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- PAGE: Blog (posts page placeholder)                          -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Blog</title>
+		<link>https://example.com/blog/</link>
+		<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?page_id=104</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-12 10:04:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-12 04:04:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- PAGE: Contact                                                -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Contact</title>
+		<link>https://example.com/contact/</link>
+		<pubDate>Thu, 12 Jun 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?page_id=105</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:columns -->
+<div class="wp-block-columns">
+<!-- wp:column {"width":"55%"} -->
+<div class="wp-block-column" style="flex-basis:55%">
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Get in touch</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Whether you are a farmer who needs urgent veterinary help, an entrepreneur planning a dairy or poultry venture, or a colleague interested in collaboration — I would be glad to hear from you.</p>
+<!-- /wp:paragraph -->
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>Office:</strong> Upazila Livestock Office &amp; Veterinary Hospital, Baliakandi, Rajbari-7730, Bangladesh</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Email:</strong> <a href="mailto:princedvm@gmail.com">princedvm@gmail.com</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Phone:</strong> +880 1XXX-XXXXXX (replace with official number)</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+<!-- wp:paragraph -->
+<p><em>Tip: install a form plugin such as WPForms, Contact Form 7 or Fluent Forms and place its block or shortcode here to accept messages directly from this page.</em></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"width":"45%"} -->
+<div class="wp-block-column" style="flex-basis:45%">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Office hours</h3>
+<!-- /wp:heading -->
+<!-- wp:table -->
+<figure class="wp-block-table"><table><tbody><tr><td>Sunday – Thursday</td><td>9:00 AM – 5:00 PM</td></tr><tr><td>Friday – Saturday</td><td>Closed (emergency hotline only)</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Find the office</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>The Upazila Livestock Office is located at the Baliakandi upazila complex, Rajbari district, Dhaka division. Replace this paragraph with an embedded Google Map (paste the map URL into the editor).</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2026-06-12 10:05:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-06-12 04:05:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- POST 1                                                       -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Foot-and-Mouth Disease: Prevention Tips for Cattle Farmers in Rajbari</title>
+		<link>https://example.com/fmd-prevention-tips/</link>
+		<pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?p=110</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Foot-and-mouth disease (FMD) remains one of the most economically damaging livestock diseases in Bangladesh. While it rarely kills adult cattle, it sharply reduces milk yield, draft power and body condition — losses that hit smallholder families hardest.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Know the signs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li>High fever followed by blisters on the tongue, gums, muzzle, teats and between the hooves</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Excessive drooling and smacking of the lips</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Lameness and reluctance to stand</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Sudden drop in milk production</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Five prevention steps every farmer can take</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>Vaccinate on schedule.</strong> Bring your cattle to the free government vaccination campaigns announced by the Upazila Livestock Office.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Quarantine new animals</strong> for at least two weeks before mixing them with your herd.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Disinfect</strong> shoes, vehicles and equipment that move between farms and markets.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Avoid shared grazing</strong> and communal watering points during an outbreak.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Report suspected cases immediately</strong> to the Upazila Livestock Office so we can respond before the disease spreads.</li>
+<!-- /wp:list-item -->
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>If you suspect FMD in your herd, do not panic and do not sell the animal at market — call the Upazila Livestock Office, Baliakandi. Early reporting protects your neighbours' animals as well as your own.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[FMD rarely kills adult cattle but devastates milk yield and incomes. Here are five practical prevention steps for the farmers of Rajbari.]]></excerpt:encoded>
+		<wp:post_id>110</wp:post_id>
+		<wp:post_date><![CDATA[2026-05-18 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-05-18 03:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[fmd-prevention-tips]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="animal-health"><![CDATA[Animal Health]]></category>
+		<category domain="post_tag" nicename="cattle"><![CDATA[Cattle]]></category>
+		<category domain="post_tag" nicename="vaccination"><![CDATA[Vaccination]]></category>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- POST 2                                                       -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Why Artificial Insemination Pays Off for Smallholder Dairy Farmers</title>
+		<link>https://example.com/artificial-insemination-benefits/</link>
+		<pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?p=111</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Many farmers in Baliakandi still rely on natural service with local bulls. Artificial insemination (AI) with quality-certified semen is safer, cheaper in the long run, and the fastest path to a more productive herd.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The benefits in plain terms</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>Better calves:</strong> crossbred heifers from proven sires can produce several times more milk than local cattle.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Disease control:</strong> AI eliminates the breeding-related spread of brucellosis and other infections.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>No bull-keeping costs:</strong> feeding and housing a breeding bull is expensive and often dangerous.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Record keeping:</strong> every AI service is documented, which helps plan calving, drying-off and vaccination.</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">When to call the AI technician</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Timing is everything. Watch for standing heat — the cow stands still when mounted by others. The best window for insemination is roughly 12 hours after the first signs of standing heat. Call the office as soon as you notice heat signs in the morning; we aim to provide same-day service.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>AI services are available at the Upazila Livestock Office, Baliakandi at the government-fixed fee. Ask us about pregnancy diagnosis and follow-up care as well.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Artificial insemination is safer and more profitable than keeping a bull. Here is what every smallholder dairy farmer should know about AI.]]></excerpt:encoded>
+		<wp:post_id>111</wp:post_id>
+		<wp:post_date><![CDATA[2026-04-26 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-04-26 03:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[artificial-insemination-benefits]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="farmer-advisory"><![CDATA[Farmer Advisory]]></category>
+		<category domain="post_tag" nicename="dairy"><![CDATA[Dairy]]></category>
+		<category domain="post_tag" nicename="breeding"><![CDATA[Breeding]]></category>
+	</item>
+
+	<!-- ============================================================ -->
+	<!-- POST 3                                                       -->
+	<!-- ============================================================ -->
+	<item>
+		<title>Preparing Your Poultry Flock for the Monsoon Season</title>
+		<link>https://example.com/poultry-monsoon-preparation/</link>
+		<pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[drmajumder]]></dc:creator>
+		<guid isPermaLink="false">https://example.com/?p=112</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>The monsoon brings welcome rain to our fields — and a wave of poultry health problems: coccidiosis, fowl cholera, Newcastle disease and fungal feed contamination all spike in the wet months. A little preparation now saves a lot of loss later.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">A pre-monsoon checklist</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list">
+<!-- wp:list-item -->
+<li><strong>Repair the shed roof and raise the floor.</strong> A dry litter bed is your first line of defence against coccidiosis.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Complete vaccinations before the rains.</strong> Make sure Newcastle disease and fowl cholera boosters are up to date.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Store feed off the ground</strong> in sealed containers — damp feed grows toxic moulds within days.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Improve ventilation</strong> while keeping rain out; humid, stagnant air spreads respiratory disease.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Provide clean drinking water.</strong> Flood water carries pathogens — never let birds drink from puddles.</li>
+<!-- /wp:list-item -->
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>The Upazila Livestock Office runs free Newcastle disease vaccination drives for backyard poultry before every monsoon. Watch for announcements at your union parishad office, or contact us directly to register your village.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[Wet months mean coccidiosis, fowl cholera and mouldy feed. Use this pre-monsoon checklist to keep your flock healthy through the rains.]]></excerpt:encoded>
+		<wp:post_id>112</wp:post_id>
+		<wp:post_date><![CDATA[2026-03-31 09:00:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2026-03-31 03:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[poultry-monsoon-preparation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="animal-health"><![CDATA[Animal Health]]></category>
+		<category domain="post_tag" nicename="poultry"><![CDATA[Poultry]]></category>
+	</item>
+
+</channel>
+</rss>

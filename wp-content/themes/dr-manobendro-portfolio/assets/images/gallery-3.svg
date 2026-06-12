@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9fc6da"/><stop offset="1" stop-color="#33708f"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <path d="M0 460 Q 200 410 400 450 T 800 460 V 600 H 0 Z" fill="#0d3f30" opacity="0.25"/>
+  <g stroke="#0d3f30" stroke-width="14" opacity="0.8" fill="none" stroke-linecap="round" transform="translate(280,200)"><path d="M200 0 l40 40"/><rect x="40" y="60" width="110" height="150" rx="16" transform="rotate(45 95 135)" fill="#ffffff" opacity="0.9"/><path d="M20 200 l-40 40"/></g>
+  <rect x="0" y="508" width="800" height="92" fill="#0d3f30" opacity="0.85"/>
+  <text x="40" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">FMD vaccination campaign</text>
+</svg>

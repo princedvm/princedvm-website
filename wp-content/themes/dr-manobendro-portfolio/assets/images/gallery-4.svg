@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cdb4e0"/><stop offset="1" stop-color="#6d4f8c"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <path d="M0 460 Q 200 410 400 450 T 800 460 V 600 H 0 Z" fill="#0d3f30" opacity="0.25"/>
+  <g fill="#0d3f30" opacity="0.8" transform="translate(230,250)"><circle cx="60" cy="40" r="34"/><path d="M0 190 q0 -90 60 -90 t60 90z"/><circle cx="220" cy="40" r="34"/><path d="M160 190 q0 -90 60 -90 t60 90z"/></g>
+  <rect x="0" y="508" width="800" height="92" fill="#0d3f30" opacity="0.85"/>
+  <text x="40" y="565" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Farmer training on dairy management</text>
+</svg>

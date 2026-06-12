@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800" width="1600" height="800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d3f30"/>
+      <stop offset="1" stop-color="#15614a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="800" fill="url(#sky)"/>
+  <circle cx="1320" cy="160" r="110" fill="#f2a93b" opacity="0.85"/>
+  <g fill="#0a3226">
+    <path d="M0 640 Q 280 540 560 620 T 1100 600 T 1600 640 V 800 H 0 Z"/>
+  </g>
+  <g fill="#08291f">
+    <path d="M0 700 Q 350 630 760 690 T 1600 700 V 800 H 0 Z"/>
+  </g>
+  <!-- barn -->
+  <g transform="translate(170,470)">
+    <rect x="0" y="60" width="180" height="110" fill="#1d4d3d"/>
+    <path d="M-14 60 L90 -10 L194 60 Z" fill="#f2a93b" opacity="0.9"/>
+    <rect x="70" y="100" width="44" height="70" fill="#0d3f30"/>
+  </g>
+  <!-- cow silhouette -->
+  <g fill="#08291f" transform="translate(960,560) scale(1.25)">
+    <ellipse cx="60" cy="40" rx="58" ry="30"/>
+    <rect x="8" y="55" width="12" height="42" rx="5"/>
+    <rect x="96" y="55" width="12" height="42" rx="5"/>
+    <circle cx="118" cy="18" r="18"/>
+    <path d="M126 2 q12 -10 16 2 q-8 2 -10 8z"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.12" stroke-width="2">
+    <circle cx="240" cy="150" r="60" fill="none"/>
+    <circle cx="620" cy="90" r="36" fill="none"/>
+    <circle cx="1080" cy="210" r="48" fill="none"/>
+  </g>
+</svg>
